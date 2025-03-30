@@ -1,0 +1,18 @@
+# Representação simplificada de um nó minerador PoI
+class PoINode:
+    def __init__(self, device_id, capacity_score):
+        self.device_id = device_id
+        self.capacity_score = capacity_score
+        self.wallet = 0
+
+    def request_job(self):
+        job = PoIPool.fetch_job(self.capacity_score)
+        return job
+
+    def execute_job(self, job):
+        result = infer(job.model, job.input)
+        PoIPool.submit_result(self.device_id, result)
+
+    def receive_reward(self, hash_confirmed):
+        if hash_confirmed:
+            self.wallet += PoIPool.calculate_reward(self.capacity_score)
