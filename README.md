@@ -1,30 +1,44 @@
 # PoI Network – Proof of Intelligence
 
-A decentralized AI inference protocol that transforms idle compute power into useful intelligence work.
+![PoI Status](https://img.shields.io/badge/status-experimental-blue)
 
-## Overview
-PoI connects unused GPUs and efficient machines across the world into an incentivized network for running AI inference tasks.
+A decentralized AI inference protocol that transforms idle compute power into useful, rewarded intelligence work.
 
-### Key Concepts:
+---
+
+## 📚 Project Files
+
+- [Executive Summary](README.md)
+- [Viability Analysis](viability.md)
+- [Market Lessons & Differentiation](market-lessons.md)
+- [Pilot Justification](justification.md)
+- [Technical FAQ – Is PoI Viable?](faq.md)
+- [Initial Issues & Roadmap](ISSUES.md)
+- [About the Creator](PROFILE.md)
+
+---
+
+## 🧠 Overview
+
+PoI connects unused GPUs and efficient machines around the world into an incentivized network for running AI inference jobs — including image generation and LLM tasks.
+
+### Key Concepts
 - Jobs = Hashes
-- Distributed pools (CUDA, OpenCL, Apple Silicon)
+- Distributed pools (CUDA, ROCm/OpenCL, Apple Silicon)
 - Fair, proportional rewards
-- Low energy footprint
+- Low energy usage
 - Circular economy model
 
-  
-PoI – Proof of Intelligence is a decentralized AI inference protocol that transforms idle compute power into real-time intelligence mining.
+---
 
-Built for creators, researchers, communities, and any GPU owner — PoI allows users to earn credits or stablecoins by contributing computational power to AI tasks like image generation and LLM inference.
+## 🎯 Vision
 
-Inspired by Proof of Work, evolved for sustainable AI.
+PoI is built on the belief that intelligence should not be centralized, and that computation can be both inclusive and sustainable.
 
-🧠 Not about speculation — about computation.
+> It's not about speculation — it's about computation.
 
-Includes:
+---
 
-Architecture outline and justification
+## 🤝 Want to collaborate?
 
-SHA256 hash for proposal integrity
-
-Pilot roadmap and technical notes
+Open a pull request, submit an issue, or contact me directly via [LinkedIn](https://linkedin.com/in/victorbarao).
