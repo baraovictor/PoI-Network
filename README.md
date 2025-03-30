@@ -12,9 +12,19 @@ PoI connects unused GPUs and efficient machines across the world into an incenti
 - Low energy footprint
 - Circular economy model
 
-> It's not about speculation. It's about computation.
+  
+PoI – Proof of Intelligence is a decentralized AI inference protocol that transforms idle compute power into real-time intelligence mining.
 
-## Contents
-- `README.md` – Overview
-- `justification.md` – Background: why this matters now
-- `hash.txt` – SHA256 hash of proposal (proof of integrity)
+Built for creators, researchers, communities, and any GPU owner — PoI allows users to earn credits or stablecoins by contributing computational power to AI tasks like image generation and LLM inference.
+
+Inspired by Proof of Work, evolved for sustainable AI.
+
+🧠 Not about speculation — about computation.
+
+Includes:
+
+Architecture outline and justification
+
+SHA256 hash for proposal integrity
+
+Pilot roadmap and technical notes
